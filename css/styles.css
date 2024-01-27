@@ -17,3 +17,7 @@
 .menu-hide {
     display: none;
 }
+
+.menu-icon {
+    cursor: pointer;
+}

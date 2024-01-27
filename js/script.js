@@ -1,11 +1,11 @@
-const showMenu = document.querySelector('.menu-show');
+const menuIcon = document.querySelector('.menu-icon');
 const menu = document.querySelector('.menu-list');
 
-showMenu.addEventListener('click', () => {
+menuIcon.addEventListener('click', () => {
     menu.classList.toggle('menu-hide');
     if (menu.classList.contains('menu-hide')) {
-        showMenu.src = "./assets/images/icon-menu.svg";
+        menuIcon.src = "./assets/images/icon-menu.svg";
     } else {
-        showMenu.src = "./assets/images/icon-menu-close.svg";
+        menuIcon.src = "./assets/images/icon-menu-close.svg";
     }
 });
