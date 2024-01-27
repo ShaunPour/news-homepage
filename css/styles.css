@@ -21,3 +21,14 @@
 .menu-icon {
     cursor: pointer;
 }
+
+.img-top-desk {
+    display: none;
+}
+
+.img-top {
+    width: 90vw;
+    margin-top: 1em;
+    position: relative;
+    left: 0.55em;
+}
