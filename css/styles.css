@@ -1,0 +1,19 @@
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list {
+    list-style-type: none;
+    position: absolute;
+    right: 5em;
+}
+
+.menu-list li {
+    margin-bottom: 2em;
+}
+
+.menu-hide {
+    display: none;
+}
