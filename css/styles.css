@@ -5,17 +5,14 @@
 }
 
 .menu-list {
+    z-index: 5000;
     list-style-type: none;
     position: absolute;
-    right: 5em;
+    right: 10em;
 }
 
 .menu-list li {
     margin-bottom: 2em;
-}
-
-.menu-hide {
-    display: none;
 }
 
 .menu-icon {
@@ -31,4 +28,53 @@
     margin-top: 1em;
     position: relative;
     left: 0.55em;
+}
+
+.menu-hide {
+    display: none;
+}
+
+.title-para,.article-preview {
+    color: hsl(236, 13%, 42%);
+}
+
+.more {
+    background: hsl(5, 85%, 63%);
+    border: none;
+    padding: 1em 2.5em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.middle {
+    background: hsl(240, 100%, 5%);
+}
+
+.section-title {
+    color: hsl(35, 77%, 62%);
+}
+
+.article-title,.more {
+    color: hsl(36, 100%, 99%);
+}
+
+.article-separator {
+    width: 88%;
+}
+
+.section-title,.article-title,.article-preview {
+    position: relative;
+    left: 1em;
+}
+
+.section-title {
+    padding-top: 1em;
+}
+
+.article-preview {
+    width: 85%;
+}
+
+#last {
+    padding-bottom: 1em;
 }
