@@ -1,3 +1,8 @@
+** {
+    margin: 0;
+    padding: 0;
+}
+
 .head {
     display: flex;
     align-items: center;
@@ -44,6 +49,7 @@
     padding: 1em 2.5em;
     text-transform: uppercase;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .middle {
@@ -77,4 +83,46 @@
 
 #last {
     padding-bottom: 1em;
+}
+
+.article-column, .article-card-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.article-card-lower {
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.article-card-lower img {
+    width: 33.33%;
+}
+
+.num {
+    font-size: 32px;
+}
+
+.num, .article-lower-preview {
+    color: hsl(236, 13%, 42%);
+    width: 65%;
+}
+
+.article-column {
+    position: relative;
+    bottom: 2em;
+    left: 0.45em;
+}
+
+.article-lower-title {
+    position: relative;
+    bottom: 2.65em;
+}
+
+.article-lower-preview {
+    position: relative;
+    bottom: 4.5em;
 }
