@@ -43,6 +43,7 @@
 
 .menu-hide {
     display: none;
+    transition: ease-in 1.5s display;
 }
 
 .article-preview,

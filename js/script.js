@@ -7,6 +7,7 @@ menuIcon.addEventListener('click', () => {
     if (menu.classList.contains('menu-hide')) {
         menuIcon.src = "./assets/images/icon-menu.svg";
         body.style.background = 'inherit';
+        body.style.overflow = 'initial';
     } else {
         menuIcon.src = "./assets/images/icon-menu-close.svg";
         body.style.background = 'hsl(236, 13%, 42%)';
