@@ -144,14 +144,17 @@
 
     .logo-img {
         position: relative;
-        left: 16em;
+        left: 9em;
+        bottom: 20em;
     }
 
     .img-top-desk {
         display: initial;
         margin-top: 4.5em;
         position: relative;
+        width: 55vw;
         left: 10vw;
+        bottom: 85vh;
     }
 
     .img-top {
@@ -175,21 +178,21 @@
     }
 
     .menu-list {
-        font-size: 22px;
+        font-size: 19px;
         position: relative;
-        top: 10px;
-        right: 16em;
+        top: -15.4em;
+        right: 1em;
+        background: initial;
     }
 
     .menu-list li {
-        margin-right: 2em;
         cursor: pointer;
     }
     .middle {
         width: 25%;
         position: relative;
         left: 70vw;
-        bottom: 90vh;
+        bottom: 190vh;
     }
 
     .article-card {
@@ -211,26 +214,26 @@
 
     .title-txt {
         font-size: 82px;
-        width: 15.6%;
+        width: 35.6%;
         position: relative;
         left: 10vw;
+        bottom: 90vh;
     }
 
     .open-lower {
-        width: 29%;
-        font-size: 35px;
+        width: 30%;
+        font-size: 20px;
         position: relative;
         left: 40vw;
-        bottom: 22vh;
+        bottom: 128vh;
     }
 
     .lower {
         display: flex;
         position: relative;
         justify-content: space-evenly;
-        bottom: 45vh;
+        bottom: 180vh;
         left: 2vw;
-        overflow-x: hidden;
     }
 
     .article-card-lower img {
