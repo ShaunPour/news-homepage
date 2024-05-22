@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code Repository](https://github.com/DarkPhoenixNinja92/news-homepage)
-- Live Site URL: [GitHub Pages Live Site](https://darkphoenixninja92.github.io/news-homepage)
+- Solution URL: [GitHub Code Repository](https://github.com/ShaunPour/news-homepage)
+- Live Site URL: [GitHub Pages Live Site](https://ShaunPour.github.io/news-homepage)
 
 ### Built with
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 - Website - [Shaun Pour](https://www.scpour.com)
 - Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
-- GitHub - [@DarkPhoenixNinja92](https://www.github.com/DarkPhoenixNinja92)
+- GitHub - [@DarkPhoenixNinja92](https://www.github.com/ShaunPour)
